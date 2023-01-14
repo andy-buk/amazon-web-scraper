@@ -4,11 +4,12 @@ import pandas
 from time import sleep
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-    'Accept-Language': 'en-US, en;q=0.5'
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                  " (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+    "Accept-Language": "en-US, en;q=0.5"
 }
 
-product_search = "hat".replace(" ", "+")
+product_search = "ENTER PRODUCT HERE".replace(" ", "+")
 URL = "https://www.amazon.com/s?k={0}".format(product_search)
 
 products = []
